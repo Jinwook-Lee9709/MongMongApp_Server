@@ -4,7 +4,6 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   const scrollToTop = () => {
-    alert("함수가 실행됨");
     window.scrollTo({
       top: 0,
       behavior: "smooth",
